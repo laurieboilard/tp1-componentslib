@@ -1,4 +1,5 @@
-**Our library of components** 
+**Our library of components!!** 
+**Voici notre guide de l'application :** 
 
 Our library on npmjs.com : https://www.npmjs.com/package/components_packages
 
