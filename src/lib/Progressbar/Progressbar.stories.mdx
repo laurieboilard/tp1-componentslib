@@ -15,7 +15,10 @@ import Progressbar from './Progressbar';
 ## Demo
 
 <Canvas>
-  <Story name="Example Progressbar">
-    {(args) => <Progressbar {...args} />}
+  <Story name="Example Progressbar1">
+    <Progressbar percent={50} size="small" status="success" type="line"/>
+  </Story>
+  <Story name="Example Progressbar2">
+    <Progressbar percent={50} size="small" status="active" type="line"/>
   </Story>
 </Canvas>

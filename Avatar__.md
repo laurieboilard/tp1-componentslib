@@ -1,6 +1,4 @@
-**Our library of components** 
-
-Our library on npmjs.com : https://www.npmjs.com/package/components_packages
+Avatar**
 
 **Avatar** 
 

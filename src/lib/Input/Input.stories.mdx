@@ -15,7 +15,10 @@ import Input from './Input';
 ## Demo
 
 <Canvas>
-  <Story name="Example Input">
-    {(args) => <Input {...args} />}
+  <Story name="Example Input1">
+    <Input size="small" placeholder="small size" prefix={<UserOutlined />} />
+  </Story>
+  <Story name="Example Input2">
+    <Input size="large" placeholder="small size" prefix={<UserOutlined />} />
   </Story>
 </Canvas>

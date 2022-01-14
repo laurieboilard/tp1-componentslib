@@ -16,6 +16,12 @@ import Datepicker from './Datepicker';
 
 <Canvas>
   <Story name="Example Datepicker">
-    {(args) => <Datepicker {...args} />}
+    <Space direction="vertical" size={12}>
+    <Datepicker showTime picker="2021-11-15" />
+      <RangePicker
+      showTime={{format: 'HH:mm'}}
+      format="2021-11-11 00:02"
+    />
+    </Space>
   </Story>
 </Canvas>

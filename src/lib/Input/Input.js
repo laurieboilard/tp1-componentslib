@@ -5,13 +5,7 @@ import {UserOutlined} from '@ant-design/icons';
 
 const Inputs = ({size}) => (
   <>
-  <Input size={size} placeholder="large size" prefix={<UserOutlined />} />
-  <br />
-  <br />
-  <Input placeholder="default size" prefix={<UserOutlined />} />
-  <br />
-  <br />
-  <Input size="small" placeholder="small size" prefix={<UserOutlined />} />
+  <Input size={size} placeholder="size" prefix={<UserOutlined />} />
   </>
 );
 
